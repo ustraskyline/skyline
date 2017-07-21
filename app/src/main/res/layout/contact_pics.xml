@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="300dp"
+    android:orientation="horizontal"
+    android:rowCount="3"
+    android:columnCount="3"
+    android:layout_gravity="center"
+ >
+    <ImageButton
+        android:id="@+id/pic_1"
+        android:background="@drawable/item_pic_1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:padding="2dp"
+        />
+
+    <ImageButton
+        android:id="@+id/pic_2"
+        android:background="@drawable/item_pic_2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:padding="2dp"
+        />
+    <ImageButton
+        android:id="@+id/pic_3"
+        android:background="@drawable/item_pic_3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:padding="2dp"
+        />
+    <ImageButton
+        android:id="@+id/pic_4"
+        android:background="@drawable/item_pic_4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:padding="2dp"
+        />
+    <ImageButton
+        android:id="@+id/pic_5"
+        android:background="@drawable/item_pic_5"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:padding="2dp"
+        />
+    <ImageButton
+        android:id="@+id/pic_6"
+        android:background="@drawable/item_pic_6"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:padding="2dp"
+        />
+    <ImageButton
+        android:id="@+id/pic_7"
+        android:background="@drawable/item_pic_7"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:padding="2dp"
+        />
+    <ImageButton
+        android:id="@+id/pic_8"
+        android:background="@drawable/item_pic_8"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:padding="2dp"
+        />
+    <ImageButton
+        android:id="@+id/pic_9"
+        android:background="@drawable/item_pic_9"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:padding="2dp"
+        />
+
+
+</GridLayout>
+
+

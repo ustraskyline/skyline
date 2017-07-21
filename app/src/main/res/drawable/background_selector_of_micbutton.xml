@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 触摸模式按下时的背景图片 -->
+    <item android:drawable="@drawable/color_have_focus" android:state_pressed="true"/>
+    <item android:drawable="@drawable/color_no_focus" android:state_pressed="false"/>
+
+</selector>

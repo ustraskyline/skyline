@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#63B8FF">
+
+        <ImageView
+            android:id="@+id/back_to_setting"
+            android:layout_width="25dp"
+            android:layout_height="match_parent"
+            android:src="@mipmap/common_back_button"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_centerVertical="true" />
+
+        <TextView
+            android:id="@+id/exit_to_setting"
+            android:layout_height="match_parent"
+            android:layout_width="50dp"
+            android:text="返回"
+            android:textSize="15sp"
+            android:textColor="#FFFFFF"
+            android:layout_toRightOf="@+id/back_to_setting"
+            android:gravity="center_vertical" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="设置"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="9"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="1dp"
+            android:background="#FFFFFF">
+
+            <TextView
+                android:id="@+id/the_background_of_conversation"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:gravity="center_vertical"
+                android:text="聊天背景"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                android:src="@mipmap/next_step_in_item" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#FFFFFF"
+            android:layout_marginTop="1dp">
+
+            <TextView
+                android:id="@+id/clean_conversation_data"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:gravity="center_vertical"
+                android:text="清除聊天数据"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/exit_this_application"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#FF3030"
+            android:gravity="center"
+            android:text="退出登录"
+            android:textSize="30sp"
+            android:textColor="#000000"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true" 
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <EditText
+            android:id="@+id/edittext_in_conversation"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:background="#FFFFFF"
+            android:hint="在这里输入消息"
+            android:layout_marginBottom="5dp"
+            android:gravity="center_vertical"
+            android:layout_marginRight="50dp" />
+
+        <ImageButton
+            android:id="@+id/send_icon_in_conversation"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:background="#EFEFEF"
+            android:src="@mipmap/send_icon_in_conversation_close"
+            android:layout_centerVertical="true"
+            android:scaleType="centerCrop"
+            android:layout_alignParentRight="true" />
+
+
+    </RelativeLayout>

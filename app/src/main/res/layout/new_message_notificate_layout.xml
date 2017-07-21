@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/top_in_contact_setting"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#63B8FF"
+        android:layout_alignParentTop="true">
+
+        <ImageView
+            android:id="@+id/back_to_about"
+            android:layout_width="25dp"
+            android:layout_height="match_parent"
+            android:src="@mipmap/common_back_button"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_centerVertical="true" />
+
+        <TextView
+            android:id="@+id/exit_to_about"
+            android:layout_height="match_parent"
+            android:layout_width="50dp"
+            android:text="返回"
+            android:textSize="15sp"
+            android:textColor="#FFFFFF"
+            android:layout_toRightOf="@+id/back_to_about"
+            android:gravity="center_vertical" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="新消息通知"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#FFFFFF">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20sp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:text="通知栏显示新消息通知"
+            android:textColor="#000000" />
+
+        <Switch
+            android:id="@+id/show_in_Notification_orNot"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:gravity="center_vertical" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#FFFFFF"
+        android:layout_marginTop="1dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20sp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:text="通知栏显示消息详情"
+            android:textColor="#000000" />
+
+        <Switch
+            android:id="@+id/show_message_detail_orNot"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:gravity="center_vertical" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#FFFFFF"
+        android:layout_marginTop="1dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20sp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:text="消息免打扰"
+            android:textColor="#000000" />
+
+        <ImageView
+            android:id="@+id/avoid_disturb_orNot"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/next_step_in_item" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="消息提示方式："
+        android:textSize="18sp"
+        android:background="#FFFFFF"
+        android:layout_marginTop="5dp"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="5dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#FFFFFF">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20sp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:text="声音"
+            android:textColor="#000000" />
+
+        <Switch
+            android:id="@+id/Sound_Notification_OrNot"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:gravity="center_vertical" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#FFFFFF"
+        android:layout_marginTop="1dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20sp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:text="振动"
+            android:textColor="#000000" />
+
+        <Switch
+            android:id="@+id/Vibrate_Notification_OrNot"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:gravity="center_vertical" />
+    </RelativeLayout>
+</LinearLayout>
